@@ -1,0 +1,78 @@
+@font-face {
+     font-family: Nunito;
+     src: url(assets\font);
+}
+#navigation, #shopiwan, #clients,  .card_clients{
+     background-color:  rgba(180, 215, 175, 1);
+}
+.active {
+     border-bottom: 3px solid rgba(67, 172, 58, 1) ;
+ }
+ .card_clients{
+     opacity: 0;
+ }
+
+.shopiwan{
+     background-image:  url(images/Vectorslim.svg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size:contain
+}
+
+#clients{
+     background-image:  url(images/Vectorslim-2.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 60% 75%;
+}
+
+#title{
+     font-size: 450%;
+}
+h3{
+     font-size: 400%;
+}
+#presentation{
+     margin-bottom: 10%;
+}
+
+#equipe{
+     position: absolute;
+     width: 300px;
+     height: 105px;
+     left: calc(50% - 383px/2 - 0.5px);
+     background: #4EAE40;
+     border-radius: 79px;
+}
+
+#fleche{
+     position: absolute;
+     width: 230px;
+     height: 150px;
+
+}
+
+#benefices{
+     background: rgba(0, 141, 57, 1);
+     color:  rgba(180, 215, 175, 1);
+}
+
+#fonctionnalites{
+     position: absolute;
+     width: 390px;
+     height: 80px;
+     left: calc(50% - 383px/2 - 0.5px);
+     background:  rgba(0, 141, 57, 1);
+     border-radius: 20px;
+     color: black
+}
+
+
+.card-img{
+     opacity: 1;
+     border-radius: 15px;
+}
+
+footer{
+     background-color: rgba(136, 208, 237, 1);
+}
