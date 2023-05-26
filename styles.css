@@ -1,6 +1,10 @@
 @font-face {
      font-family: Nunito;
-     src: url(assets\font);
+     src: url(assets/font/Nunito-Black.ttf);
+     src: url(assets/font/Nunito-BlackItalic.ttf);
+     src: url(assets/font/Nunito-Bold.ttf);
+     src: url(assets/font/Nunito-SemiBold.ttf);
+     
 }
 #navigation, #shopiwan, #clients,  .card_clients{
      background-color:  rgba(180, 215, 175, 1);
@@ -49,12 +53,13 @@ h3{
      position: absolute;
      width: 230px;
      height: 150px;
-
+     left: 60%;
 }
 
 #benefices{
      background: rgba(0, 141, 57, 1);
      color:  rgba(180, 215, 175, 1);
+     margin-top: 15%;
 }
 
 #fonctionnalites{
